@@ -7,23 +7,17 @@ This code is not production-ready and is intended solely for proof-of-concept (P
 
 # Features
 
-Dual-input model: numeric OHLC + tokenized news headlines
-
-Built using the Keras Functional API with JAX acceleration
-
-Supports training, saving, and zero-shot inference
-
-Clean preprocessing pipeline with scikit-learn and Tokenizer
-
-Easily extendable to real financial targets and news sentiment
+- Dual-input model: numeric OHLC + tokenized news headlines
+- Built using the Keras Functional API with JAX acceleration
+- Supports training, saving, and zero-shot inference
+- Clean preprocessing pipeline with `scikit-learn` and `Tokenizer`
+- Easily extendable to real financial targets and news sentiment
 
 # Inputs 
 
-train_ohlc.csv: OHLC data with ticker,date,open,low,high,close,volume
-
-train_news.csv: News with id,ticker,exchange,headline,source
-
-test_ohlc.csv and test_news.csv: Optional zero-shot evaluation inputs
+- `train_ohlc.csv`: OHLC data with `ticker,date,open,low,high,close,volume`
+- `train_news.csv`: News with `id,ticker,exchange,headline,source`
+- `test_ohlc.csv` and `test_news.csv`: Optional zero-shot evaluation inputs
 
 # Quick Install
 
