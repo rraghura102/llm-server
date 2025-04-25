@@ -157,8 +157,3 @@ curl --location 'http://localhost:60000/aes/decrypt' \
     "encryptedText": "iEAOSKF6zrh1we0W4Bn1MXSyyvxPag6F+MBNhD0CgpDNyL35kAm+98p3gH0qHQBF0PGHwdaEU1GWOO600RrdlMTMZKJiK1TwFT1nyyg/r/4="
 }'
 ```
-
-### License
-
-© 2025 Rayan Raghuram. All rights reserved.
-This project is licensed under the MIT License.
