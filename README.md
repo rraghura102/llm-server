@@ -1,6 +1,6 @@
 # LLM Server
 
-A Proof of Concept (POC) of a lightweight, multi-user capable Golang Large Language Model (LLM) server for running completions, embeddings, and secure prompt processing with a [llama.cpp](https://github.com/ggml-org/llama.cpp) backend. Supports secure completions and inference generation with AES and RSA encryption. The Inference Server demonstrates a Zero Trust implementation where data is encrypted at REST, in TRANSIT, and in PROCESS. This code is optimized for both MAC OS on ARM and Linux on Nvidia H100 GPU with secure compute architectures. Instructions to compile and deploy on MAC ARM with the mini Llama-3.2-1B LLM model are provided below. 
+This is a Proof of Concept (POC) of a Golang based Zero Trust, lightweight, multi-user wrapper service for a [llama.cpp](https://github.com/ggml-org/llama.cpp). The LLM Server demonstrates secure inference generation and completions with RSA and AES encryption to provide for data encryption at REST, in Transit, and in Process. This code is optimized for both MAC OS on ARM and Linux on Nvidia H100 GPU secure compute architectures. Instructions to compile and deploy on MAC ARM with the mini Llama-3.2-1B LLM model are provided below. 
 
 ⚠️ NOTE
 This code is not production-ready and is intended solely for proof-of-concept (PoC) and demonstration purposes. It lacks production-grade features such as authentication, request limits, error handling, hardening, and full model lifecycle management.
