@@ -1,6 +1,6 @@
 # LLM Server
 
-This is a Proof of Concept (PoC) of a Golang based lightweight, multi-user wrapper service for a [llama.cpp](https://github.com/ggml-org/llama.cpp) C++ backed. The LLM Server demonstrates inference generation and completions with RSA and AES encryption for data in Transit. This code is optimized for MAC OS on ARM. Instructions to compile and deploy on MAC ARM with the mini Llama-3.2-1B LLM model are provided below. 
+This is a Proof of Concept (PoC) of a Golang based lightweight, multi-user wrapper service for a [llama.cpp](https://github.com/ggml-org/llama.cpp) C++ backend. The LLM Server demonstrates inference generation and completions with RSA and AES encryption for data in Transit. This code is optimized for MAC OS on ARM. Instructions to compile and deploy on MAC ARM with the mini Llama-3.2-1B LLM model are provided below. 
 
 ⚠️ NOTE
 This code is not production-ready and is intended solely for proof-of-concept (PoC) and demonstration purposes. It lacks production-grade features such as authentication, request limits, error handling, hardening, and full model lifecycle management.
