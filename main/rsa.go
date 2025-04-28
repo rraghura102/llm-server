@@ -1,19 +1,29 @@
 package main
 
-// Author: Rayan Raghuram
-// Cpyright @ 2025 Rayan Raghuram. All rights reserved.
-//
-// This module provides REST API handlers and cryptographic utilities
-// for RSA key generation, encryption, and decryption using standard
-// Go crypto packages.
-//
-// Keys are base64-encoded for safe JSON transport, and support is
-// included for 2048-bit RSA keys using PKCS1 and PKIX formats.
-//
-// Use cases include:
-//   - Secure symmetric key exchange (e.g., hybrid AES-RSA encryption)
-//   - Encrypted LLM prompts or completions
-//   - Client-server public key encryption flows
+/**
+ *
+ * MIT License
+ *
+ * Copyright (c) 2025 Rayan Raghuram
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
 
 import(
 	"fmt"
