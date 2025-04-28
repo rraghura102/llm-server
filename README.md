@@ -57,6 +57,7 @@ git clone https://github.com/rraghura102/llm-server.git
 ```
 cd llm-server
 mkdir models
+cd models
 huggingface-cli download hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF --include "llama-3.2-1b-instruct-q8_0.gguf" --local-dir ./
 mv llama-3.2-1b-instruct-q8_0.gguf modelfile
 ```
