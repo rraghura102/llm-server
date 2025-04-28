@@ -43,7 +43,7 @@ echo 'export PATH="$HOME/Library/Python/3.9/bin:$PATH"' >> ~/.zprofile
 source ~/.zprofile
 huggingface-cli --version
 huggingface-cli --help
-pip show huggingface_hub
+pip3 show huggingface_hub
 ```
 
 5) Clone Repository
@@ -64,10 +64,6 @@ mv llama-3.2-1b-instruct-q8_0.gguf modelfile
 
 ```
 cd .. (llm-server root directory)
-rm llm-server
-rm -rf build
-rm go.*
-
 go mod init llm-server
 go mod tidy
 make -j 18
