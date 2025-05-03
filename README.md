@@ -120,7 +120,7 @@ curl --location 'http://localhost:60000/secure/completion' \
 
 10) Utility Crypto API's
 
-These utility API's are only to test the POC and should need published by the server in any environment.
+These utility API's are only to test the POC and should not published by the server in any environment.
 
 ```
 curl --location 'http://localhost:60000/aes/key'
